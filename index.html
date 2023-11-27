@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My First Web Page</title>
+	</head>
+	<body>
+		<h1>Headings</h1>
+		<h1>Welcome</h1>
+		<h2>Welcome</h2>
+		<h3>Welcome</h3>
+		<h4>Welcome</h4>
+		<h5>Welcome</h5>
+		<h6>Welcome</h6>
+
+		<br>
+		<h1>Paragraphs</h1>
+		<p>This is a paragraph</p>
+		<p>This is another <strong>Paragraph</strong> of <i>text</i> </p>
+
+		<br>
+
+		<h1>Links</h1>
+		<a title="Google" href="https://google.com" target="_blank">Link to Google</a>
+
+
+		<h1>Images</h1>
+		<img src="https://picsum.photos/400/200">
+
+
+
+		<p>
+		<-------lecture 2---------------->
+			<---Lists and Taables Onwards---></p>
+				<h1>Unorderd Lists</h1>
+
+				<ul>
+					<li>Item 1 </li>
+					<li>Item 2 </li>
+					<li>Item 3 </li>
+					<li>Item 4 </li>
+				</ul>
+
+
+				<h1>Orderd Lists</h1>
+
+				<ol>
+					<li>Item 1 </li>
+					<li>Item 2 </li>
+					<li>Item 3 </li>
+					<li>Item 4 </li>
+				</ol>
+
+
+				<h1>Description Lists</h1>
+
+				<dl>
+					<dt>Coffee</dt>
+					<dd>Black Hot Drink</dd>
+					<dt>Milk</dt>
+					<dd>White Cold Drink</dd>
+				</dl>
+
+
+				<h1>Tables</h1>
+
+				<table>
+					<thead>
+						<tr align="left" bgcolor="orange">
+							<th width="400">Name</th>
+							<th width="300">Email</th>
+							<th width="300">Phone</th>
+						</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Abhi</td>
+								<td>Abhi@gmail.com</td>
+								<td>4586222322</td>
+							</tr>
+
+							<tr>
+								<td>Ab</td>
+								<td>Ab@gmail.com</td>
+								<td>4583322322</td>
+							</tr>
+
+							<tr>
+								<td>Arr</td>
+								<td>Arr@gmail.com</td>
+								<td>4555222322</td>
+							</tr>
+						</tbody>
+				</table>
+
+		<p><--Lecture 3------></p>
+		<h1>Forms and Inputs</h1>
+		<h2>Registration Forms</h2>
+		<form action="POST" action="index.php">
+			<fieldset>
+				<legend>Account</legend>
+				<label>Name</label>
+				<input type="text" name="name" required>
+				<br><br>
+				<label>Email</label>
+				<input type="email" name="email">
+				<br><br>
+				<label>Password</label>
+				<input type="password" name="password">
+				<br><br>
+			</fieldset>
+			<fieldset>
+				<legend>User Info</legend>
+				<label>Location</label>
+				<select name="Location">
+					<option value="NY">NY</option>
+					<option value="IN" selected>IN</option>
+					<option value="CN">CN</option>
+				</select>
+				<br><br>
+
+				<label>Gender</label>
+				<input type="radio" name="gender" value="Male" checked>Male
+				<input type="radio" name="gender" value="Female">Female
+				<input type="radio" name="gender" value="Others">Others
+				<br><br>
+
+				<label>Interests</label>
+				<input type="checkbox" name="Interests" value="Music">Music
+				<input type="checkbox" name="Interests" value="Movies">Movies
+				<input type="checkbox" name="Interests" value="Sports">Sports
+				<input type="checkbox" name="Interests" value="Arts">Arts
+				<br><br>
+			</fieldset>
+			<br>
+			
+			<input type="submit" value="Submit">
+		</form>
+
+		
+
+	</body>
+</html>
